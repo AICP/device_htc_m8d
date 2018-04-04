@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aicp_m8d.mk
+
+COMMON_LUNCH_CHOICES := \
+    acip_m8d-user \
+    aicp_m8d-userdebug \
+    aicp_m8d-eng
